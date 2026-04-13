@@ -1,0 +1,31 @@
+{
+    "name": "vicistack/vicidial-docker-deployment",
+    "description": "Running VICIdial in Docker: The Container Setup Nobody Talks About",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "vicidial",
+        "asterisk",
+        "call-center",
+        "voip",
+        "predictive-dialer",
+        "vicidial",
+        "docker",
+        "deployment"
+    ],
+    "homepage": "https://vicistack.com/blog/vicidial-docker-deployment/",
+    "authors": [
+        {
+            "name": "ViciStack",
+            "homepage": "https://vicistack.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViciStack\\VicidialDockerDeployment\\": "src/"
+        }
+    }
+}
